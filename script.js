@@ -3,5 +3,5 @@ let colorSelect = document.getElementById('colorSelect');
 let removebtn = document.querySelector('input');
 
 removebtn.addEventListener('click', () => {
-	colorSelect.remove(colorSelect.SelectIndex);
+	colorSelect.remove(colorSelect.selectedIndex);
 });
